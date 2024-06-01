@@ -1,0 +1,16 @@
+.tab {
+  flex: 1;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: larger;
+  cursor: pointer;
+  min-width: fit-content;
+  background-color: #f0f0f0;
+}
+
+.active-tab {
+  border-bottom: 2px solid red;
+  color: red;
+  font-weight: bolder;
+  background-color: transparent;
+}
