@@ -1,0 +1,53 @@
+.heading {
+  text-align: center;
+}
+
+.crypto__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.crypto__card {
+  width: 400px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0 0 5px 5px rgb(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.crypto__image {
+  width: 25%;
+}
+
+.crypto__image > img {
+  width: 70px;
+  height: 70px;
+}
+
+.crypto__details {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.crypto__details .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name,
+.price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.change {
+  color: red;
+}

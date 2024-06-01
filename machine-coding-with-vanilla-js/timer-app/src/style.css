@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: fit-content;
+  margin: auto;
+  padding: 10px 20px;
+  border: 1px solid #5c5656;
+  border-radius: 20px;
+  margin-top: 225px;
+}
+
+.timer-digits {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.timer-digits > span {
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+.timer-action {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  background: transparent;
+  cursor: pointer;
+  background-color: #eddfc7;
+  border-radius: 20px;
+}

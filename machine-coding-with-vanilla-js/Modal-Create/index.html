@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal example</title>
+  </head>
+  <body>
+    <modal-controller></modal-controller>
+    <div class="root__div">
+      <div class="modal__open--div">
+        <button class="open__modal--btn">Open Modal</button>
+      </div>
+    </div>
+    <div class="modal__container">
+      <div class="modal__title">
+        <div class="modal__title--name">Modal Open</div>
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+      <div class="modal__description"></div>
+      <div class="modal__footer">
+        <button class="modal__cancel--btn">Cancel</button>
+        <button class="modal__submit--btn">Submit</button>
+      </div>
+    </div>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="./src/index.js"></script>
+  </body>
+</html>

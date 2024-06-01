@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="output" id="display-calculation">
+        <div data-prev-display class="prev-display"></div>
+        <div data-curr-display></div>
+      </div>
+      <div class="calculator-keypad" id="calc-keys">
+        <div class="first-row">
+          <button data-number value="7">7</button>
+          <button data-number value="8">8</button>
+          <button data-number value="9">9</button>
+          <button data-delete value="delete" class="delete-btn">Delete</button>
+        </div>
+        <div class="second-row">
+          <button data-number value="4">4</button>
+          <button data-number value="5">5</button>
+          <button data-number value="6">6</button>
+          <button data-plus value="+" class="plus-btn">+</button>
+        </div>
+        <div class="third-row">
+          <button data-number value="1">1</button>
+          <button data-number value="2">2</button>
+          <button data-number value="3">3</button>
+          <button data-minus value="-" class="minus-btn">-</button>
+        </div>
+        <div class="fourth-row">
+          <button data-number value="00">00</button>
+          <button data-number value="0">0</button>
+          <button data-divide value="/">/</button>
+          <button data-multiply value="*" class="multiply-btn">*</button>
+        </div>
+        <div class="fifth-row">
+          <button data-reset value="reset" class="reset-btn">Reset</button>
+          <button data-equal value="=" class="equal-btn">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="./Js/calculatorClass.js"></script>
+    <script src="./Js/index.js"></script>
+  </body>
+</html>
